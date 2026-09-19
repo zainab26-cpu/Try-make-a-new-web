@@ -1,0 +1,314 @@
+* {
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+}
+
+.container {
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+header {
+    background-color: black;
+    padding: 20px;
+    position: fixed;
+    width: 100%;
+    z-index: 70;
+    top: 0;
+    left: 0;
+
+}
+
+.logo-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.img-header {
+    align-items: start;
+}
+
+
+
+.logo-forms {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.logo-form1 {
+    background-color: black;
+    color: #fff;
+    cursor: pointer;
+    
+}
+
+.logo-form1:hover {
+    text-decoration: underline;
+}
+
+.logo-form2 {
+    border: 1px solid #fff;
+    color: #fff;
+    font-size: 15px;
+    font-weight: 600;
+    padding: 8px 10px;
+    cursor: pointer;
+
+}
+
+.logo-form2:hover {
+    background-color: transparent;
+}
+
+.logo-nav1 {
+    display: flex;
+    justify-content: start;
+    gap: 15px;
+    margin-top: 30px;
+}
+.logo-nav1 a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 20px;
+    font-weight: 400;
+}
+
+.logo-nav1 a:hover {
+    text-decoration: underline;
+}
+
+.logo-nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 15px;
+}
+
+.logo-nav input {
+    background-color: #fff;
+    font-size: 15px;
+    border: none;
+    border-radius: 8px;
+    padding: 10px 80px;
+    margin-top: 20px;
+}
+
+main {
+    background-color: #fff;
+}
+
+.heading1 {
+    margin-top: 170px;
+}
+.nav-main {
+    margin-top: 20px;
+    margin-bottom: 10px;
+    display: flex;
+    justify-content: start;
+    gap: 10px;
+}
+
+.nav-main a {
+    text-decoration: none;
+    color: dimgray;
+}
+
+.header-main {
+    margin-bottom: 30px;
+}
+
+.header-main h1 {
+    font-size: 26px;
+    font-weight: 600;
+    margin-bottom: 5px;
+}
+
+
+.header-list p,
+.header-main p,
+.card-list span,
+.card-list p,
+.card-list h4 {
+    color: dimgray;
+}
+
+.card-content {
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    gap: 10px;
+    
+}
+.card-list {
+    background-color: #f1f0f0;
+    width: 300px;
+    text-align: start;
+    margin-bottom: 10px;
+    
+    
+}
+.card-list img {
+    width: 300px;
+}
+
+.card-list h4 {
+    font-size: 15px;
+    font-weight:300;
+    text-transform: uppercase;
+    margin-bottom: 10px;
+
+}
+
+.card-list 
+.card-list h2 {
+    font-size: 24px;
+    font-weight: 600;
+    margin-top: 9px;
+    margin-bottom: 9px;
+    text-decoration: none;
+}
+
+.card-list a {
+    text-decoration: none;
+    color: black;
+
+}
+
+.card-list a h2{
+    margin-bottom: 10px;
+    cursor: pointer;
+}
+
+.card-list a h2:hover {
+    text-decoration: underline;
+}
+
+.content-card {
+    padding: 10px;
+}
+
+.card-list:last-child {
+    display:grid ;
+}
+
+img-card img {
+    transition: 0.3s;
+}
+
+footer {
+    background-color: black;
+    margin-top: 40px;
+    padding-bottom: 60px;
+}
+
+hr {
+    margin-top: 40px;
+    margin-bottom: 40px;
+    border: 3px solid #fff;
+
+   
+}
+
+
+.footer-copywriting {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 5px;
+
+}
+
+.footer-content {
+    
+    display: flex;
+    flex-direction: column;
+    
+    
+}
+
+.footer-primary {
+    display: flex;
+    justify-content: space-between;
+    gap: 15px;
+
+
+}
+
+.footer-content button {
+    border: 1px solid #ffffff;
+    border-radius: 4px;
+    padding: 12px 24px;
+    font-size: 15px;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+
+
+.nav-footer1 a,
+.nav-footer2 a { 
+    color: #fff;
+    font-size: 20px;
+    font-weight: 600;
+    text-decoration: none;
+}
+
+.nav-footer {
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+}
+   /*      هنا استعنت ب ai لاني معرفتش ازاي اجيبهم تحت بعض*/
+
+.a-footer {
+    display: flex;
+    flex-direction: column;
+}
+
+.a-footer a:hover {
+    text-decoration: underline;
+}
+
+.a-footer a:first-child {
+    text-decoration: none;
+    margin-bottom: 10px;
+}
+
+.social-footer {
+    margin-top: 30px;
+}
+
+.social-footer h4 {
+    color: #fff;
+    margin-bottom: 10px;
+}
+
+
+
+.social-nav a img {
+    width: 30px;
+}
+
+.footer-text {
+    display: flex;
+    justify-content: space-around;
+
+}
+
+.footer-text a {
+    text-decoration: none;
+    color: #fff;
+    margin-bottom: 40px;
+}
+
+.footer-text p {
+    color: #fff;
+    margin-top: 20px;
+}
+
+.footer-text a:hover {
+    text-decoration: underline;
+}
+
